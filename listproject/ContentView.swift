@@ -10,7 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        TabView{
+            foodlist().tabItem{
+                Image(systemName: "list.bullet")
+                Text("菜單列表")
+            }
+            foodoverview().tabItem{
+                Image(systemName: "book.circle")
+                Text("圖片試閱")
+            }
+        }.accentColor(.blue)
     }
 }
 
@@ -19,3 +28,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

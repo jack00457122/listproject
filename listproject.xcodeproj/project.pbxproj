@@ -13,6 +13,12 @@
 		594C364D244698CB0075EC75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594C364C244698CB0075EC75 /* Assets.xcassets */; };
 		594C3650244698CB0075EC75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594C364F244698CB0075EC75 /* Preview Assets.xcassets */; };
 		594C3653244698CB0075EC75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594C3651244698CB0075EC75 /* LaunchScreen.storyboard */; };
+		594C365B244699FA0075EC75 /* fooddetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C365A244699FA0075EC75 /* fooddetail.swift */; };
+		594C365D24469E4D0075EC75 /* foodlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C365C24469E4D0075EC75 /* foodlist.swift */; };
+		594C365F24469EDF0075EC75 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C365E24469EDF0075EC75 /* Food.swift */; };
+		594C366124469F780075EC75 /* foodrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C366024469F780075EC75 /* foodrow.swift */; };
+		594C36632446C5640075EC75 /* fooddata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C36622446C5640075EC75 /* fooddata.swift */; };
+		594C36652446C5BC0075EC75 /* foodoverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C36642446C5BC0075EC75 /* foodoverview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		594C364F244698CB0075EC75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		594C3652244698CB0075EC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		594C3654244698CB0075EC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594C365A244699FA0075EC75 /* fooddetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fooddetail.swift; sourceTree = "<group>"; };
+		594C365C24469E4D0075EC75 /* foodlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodlist.swift; sourceTree = "<group>"; };
+		594C365E24469EDF0075EC75 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		594C366024469F780075EC75 /* foodrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodrow.swift; sourceTree = "<group>"; };
+		594C36622446C5640075EC75 /* fooddata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fooddata.swift; sourceTree = "<group>"; };
+		594C36642446C5BC0075EC75 /* foodoverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodoverview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				594C3646244698CA0075EC75 /* AppDelegate.swift */,
 				594C3648244698CA0075EC75 /* SceneDelegate.swift */,
 				594C364A244698CA0075EC75 /* ContentView.swift */,
+				594C365E24469EDF0075EC75 /* Food.swift */,
+				594C36622446C5640075EC75 /* fooddata.swift */,
+				594C365A244699FA0075EC75 /* fooddetail.swift */,
+				594C36642446C5BC0075EC75 /* foodoverview.swift */,
+				594C365C24469E4D0075EC75 /* foodlist.swift */,
+				594C366024469F780075EC75 /* foodrow.swift */,
 				594C364C244698CB0075EC75 /* Assets.xcassets */,
 				594C3651244698CB0075EC75 /* LaunchScreen.storyboard */,
 				594C3654244698CB0075EC75 /* Info.plist */,
@@ -148,7 +166,13 @@
 			files = (
 				594C3647244698CA0075EC75 /* AppDelegate.swift in Sources */,
 				594C3649244698CA0075EC75 /* SceneDelegate.swift in Sources */,
+				594C365D24469E4D0075EC75 /* foodlist.swift in Sources */,
+				594C36632446C5640075EC75 /* fooddata.swift in Sources */,
+				594C365B244699FA0075EC75 /* fooddetail.swift in Sources */,
 				594C364B244698CA0075EC75 /* ContentView.swift in Sources */,
+				594C365F24469EDF0075EC75 /* Food.swift in Sources */,
+				594C36652446C5BC0075EC75 /* foodoverview.swift in Sources */,
+				594C366124469F780075EC75 /* foodrow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
